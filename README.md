@@ -16,7 +16,7 @@ Below you can get information how to setup script, bot and how to change script 
 
 1. Go to the [table](https://docs.google.com/spreadsheets) in which you need to track changes
 2. Go to **Extensions** > **Apps Scrips**
-3. In **Editor** change code inside file to code from this repository and **Save**
+3. In **Editor** change code inside file with [code from this repository](https://github.com/plaksy/google-sheets-onedit-notify/blob/main/script.gs) and **Save**
 4. After you added code - go to **Triggers**
 5. Create new trigger with options on image and save
 
