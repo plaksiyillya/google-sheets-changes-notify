@@ -1,4 +1,4 @@
-# Google Sheets changes notification :mailbox:
+# Google Sheets changes notification :mailbox: via Telegram Bot
 When something in a **table** or in a specific **column/row/cell** is changed, an **app script** for **Google Sheets**:bar_chart:  will notify the user through a **Telegram bot**.
 
 Below are instructions for setting up a script, bot, and changing the script for your use (for use with a specific **column**, **row**, or **cell**).
