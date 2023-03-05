@@ -1,18 +1,17 @@
 # Google Sheets changes notification :mailbox:
-**App Script** for **Google Sheets**:bar_chart: notify user through **Telegram Bot** when someting in **table** or in specific **column**/**row**/**cell** is changed.
+When something in a **table** or in a specific **column/row/cell** is changed, an **app script** for **Google Sheets**:bar_chart:  will notify the user through a **Telegram bot**.
 
-Below you can get information how to setup script, bot and how to change script for your using (for using with specific **column**/**row**/**cell**).
+Below are instructions for setting up a script, bot, and changing the script for your use (for use with a specific **column**, **row**, or **cell**).
 
-
-## How to setup
-#### For script working you need to create bot through Telegram [@BotFather](https://t.me/BotFather) by following this steps:
+## How to set up
+#### For script working, you need to create bot through Telegram [@BotFather](https://t.me/BotFather) by following these steps:
 
 1. Write to [@BotFather](https://t.me/BotFather) command */start*
 2. Now create new bot with command */newbot*
 3. Give bot a name and after a username (with "bot" on the end)
 4. Done, now save Bot token to access the HTTP API
 
-#### After creating bot we need to install script on **Google Sheets**, follow this steps:
+#### After creating bot we need to install script on **Google Sheets**, follow these steps:
 
 1. Go to the [table](https://docs.google.com/spreadsheets) in which you need to track changes
 2. Go to **Extensions** > **Apps Scrips**
@@ -24,13 +23,13 @@ Below you can get information how to setup script, bot and how to change script 
 
 ## How to change bot token and chat_id
 
-1. Script trying to send a messag via bot to user using CHAT_ID, to get your CHAT_ID go to [@userinfobot](https://t.me/userinfobot) and write */start*
-2. Change ***YOUR_CHAT_ID*** with your chat id from [@userinfobot](https://t.me/userinfobot) in start of script you added befire in **Editor**
+1. Script trying to send a message via bot to user using CHAT_ID, to get your CHAT_ID go to [@userinfobot](https://t.me/userinfobot) and write */start*
+2. Change ***YOUR_CHAT_ID*** with your chat id from [@userinfobot](https://t.me/userinfobot) in start of script you added before in **Editor**
 3. Also change ***YOUR_TELEGRAM_BOT_TOKEN*** with token you get in bot setup
 
-## If you need to check only specific *column/row/cell*:
-1. You need to check specific ***column***? Change ***check_only_one_column*** to ***true*** and ***YOUR_COLUMN_LETTER*** to letter you need
-2. You need to check specific ***row***? Change ***check_only_one_row*** to ***true*** and ***YOUR_NUMBER*** to number you need (without quotation marks)
+## If you need to check only a specific *column/row/cell*:
+1. You need to check a specific ***column***? Change ***check_only_one_column*** to ***true*** and ***YOUR_COLUMN_LETTER*** to letter you need
+2. You need to check a specific ***row***? Change ***check_only_one_row*** to ***true*** and ***YOUR_NUMBER*** to number you need (without quotation marks)
 3. You need to check specific ***cell***?  Do two steps ***1*** and ***2***
 
 ### If you need more information - contact me via my [social media](https://github.com/plaksy). Thank you :herb:
