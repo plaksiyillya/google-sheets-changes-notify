@@ -19,7 +19,7 @@ Below are instructions for setting up a script, bot, and changing the script for
 4. After you added code - go to **Triggers**
 5. Create new trigger with options on image and save
 
-![image](https://user-images.githubusercontent.com/56319778/223088000-383fbd5d-939d-409a-9654-25d86dd9681e.png)
+![image](https://user-images.githubusercontent.com/56319778/223088438-73337d83-6b30-4f04-b862-24f46d9392fc.png)
 
 
 ## How to change bot token and chat_id
