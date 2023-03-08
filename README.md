@@ -10,6 +10,7 @@ Below are instructions for setting up a script, bot, and changing the script for
 2. Now create new bot with command */newbot*
 3. Give bot a name and after a username (with "bot" on the end)
 4. [@BotFather](https://t.me/BotFather) will send you message with token to access the HTTP API. We will need it later
+5. In this massage, there is a link to your bot: *"t.me/YOUR_USERBOT_NAME"* - go to chat with your bot and use command */start*
 
 #### After creating bot we need to install script on **Google Sheets**, follow these steps:
 
